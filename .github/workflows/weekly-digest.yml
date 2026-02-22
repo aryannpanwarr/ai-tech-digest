@@ -11,7 +11,25 @@ on:
       - '.github/workflows/weekly-digest.yml'
 
 jobs:
+  smoke-test:
+    if: github.event_name == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: cd pipeline && pip install -e ".[dev]"
+
+      - name: Run test suite
+        run: cd pipeline && pytest -q
+
   generate-digest:
+    if: github.event_name != 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: write        # Needed to push commits
@@ -25,6 +43,15 @@ jobs:
 
       - name: Install dependencies
         run: cd pipeline && pip install -e ".[dev]"
+
+      - name: Verify required secret
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "GEMINI_API_KEY secret is not configured in repository settings."
+            exit 1
+          fi
 
       - name: Install Playwright for crawl4ai
         run: python -m playwright install chromium
