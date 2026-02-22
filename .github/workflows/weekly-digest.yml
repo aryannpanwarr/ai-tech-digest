@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: '0 14 * * 0'    # Every Sunday at 2 PM UTC
   workflow_dispatch:          # Manual trigger for testing
+  push:                       # One-click verification when this workflow changes
+    branches:
+      - main
+    paths:
+      - '.github/workflows/weekly-digest.yml'
 
 jobs:
   generate-digest:
@@ -24,16 +29,13 @@ jobs:
       - name: Install Playwright for crawl4ai
         run: python -m playwright install chromium
 
+      - name: Configure git identity
+        run: |
+          git config user.name "AI Digest Bot"
+          git config user.email "bot@ai-digest.dev"
+
       - name: Run pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: cd pipeline && python -m src.main
-
-      - name: Commit and push new digest
-        run: |
-          git config user.name "AI Digest Bot"
-          git config user.email "bot@ai-digest.dev"
-          git add content/
-          git diff --staged --quiet || git commit -m "digest: Week $(date +%V), $(date +%Y)"
-          git push
