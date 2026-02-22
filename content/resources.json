@@ -30,6 +30,21 @@
         "url": "https://lilianweng.github.io/",
         "description": "Thorough technical deep-dives into ML concepts by OpenAI researcher.",
         "frequency": "monthly"
+      },
+      {
+        "name": "Qwen 3.5 Model Collection",
+        "url": "https://huggingface.co/collections/Qwen/qwen35-65ba609f2d01869e5154f9d5",
+        "description": "Access to Alibaba's latest open-weight models, which feature native multimodal support and represent the current state-of-the-art for open-source vision-language tasks."
+      },
+      {
+        "name": "Project Silica: Cloud Storage for the Millennia",
+        "url": "https://www.microsoft.com/en-us/research/project/project-silica/",
+        "description": "A deep dive into Microsoft's revolutionary glass-based storage technology that uses plasma explosions to archive data for thousands of years."
+      },
+      {
+        "name": "Google 2026 Responsible AI Progress Report",
+        "url": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
+        "description": "A primary source document detailing how one of the world's largest AI labs implements safety, ethics, and red-teaming across its Gemini model family."
       }
     ],
     "research_trackers": [
@@ -38,9 +53,35 @@
         "url": "https://paperswithcode.com/",
         "description": "Track state-of-the-art ML papers with their implementations.",
         "frequency": "daily"
+      },
+      {
+        "name": "IT-Bench and MAST: Diagnosing Enterprise Agent Failures",
+        "url": "https://huggingface.co/blog/ibm-research/itbenchandmast",
+        "description": "A collaborative research effort by IBM and UC Berkeley that provides a rigorous framework for understanding why AI agents fail in complex enterprise environments."
       }
     ],
-    "tools": [],
+    "tools": [
+      {
+        "name": "Claude Code Documentation",
+        "url": "https://docs.anthropic.com/en/docs/agents-and-tools/claude-code",
+        "description": "The official guide for Anthropic's new agentic CLI, which allows developers to automate entire coding workflows and security audits directly from the terminal."
+      },
+      {
+        "name": "llama.cpp GitHub Repository",
+        "url": "https://github.com/ggerganov/llama.cpp",
+        "description": "The foundational infrastructure for local LLM inference, now under the Hugging Face umbrella to ensure its continued growth as an open-source standard."
+      },
+      {
+        "name": "OpenClaw Agent Framework",
+        "url": "https://github.com/OpenClaw/OpenClaw",
+        "description": "A high-velocity open-source project for building autonomous agents that has recently gained significant industry attention for its scalability and tool-integration capabilities."
+      },
+      {
+        "name": "Unsloth AI Training Library",
+        "url": "https://github.com/unslothai/unsloth",
+        "description": "An essential tool for developers looking to fine-tune LLMs with 2x more speed and 70% less memory, now integrated with Hugging Face for free training jobs."
+      }
+    ],
     "communities": [
       {
         "name": "r/MachineLearning",
