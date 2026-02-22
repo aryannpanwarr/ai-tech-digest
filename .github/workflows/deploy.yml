@@ -44,10 +44,9 @@ jobs:
         if: steps.vercel_secrets.outputs.has_secrets == 'true'
         working-directory: ./website
         run: |
-          npm install --global vercel@latest
-          vercel pull --yes --environment=production --token="$VERCEL_TOKEN"
-          vercel build --prod --token="$VERCEL_TOKEN"
-          vercel deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+          npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
+          npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
+          npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
 
       - name: Skip deploy (missing Vercel secrets)
         if: steps.vercel_secrets.outputs.has_secrets != 'true'
