@@ -7,6 +7,7 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   const repoUrl = process.env.NEXT_PUBLIC_REPO_URL || 'https://github.com';
+  const deployedUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://ai-tech-digest-flax.vercel.app';
 
   return (
     <div className="max-w-content mx-auto px-6 md:px-12 py-12">
@@ -69,6 +70,15 @@ export default function AboutPage() {
             GitHub
           </a>
           . Contributions, feedback, and suggestions are welcome.
+        </p>
+
+        <h2>Live Deployment</h2>
+        <p>
+          The live site is deployed on Vercel at{' '}
+          <a href={deployedUrl} target="_blank" rel="noopener noreferrer">
+            {deployedUrl}
+          </a>
+          .
         </p>
       </div>
     </div>
