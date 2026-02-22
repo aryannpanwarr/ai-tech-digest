@@ -44,9 +44,24 @@ jobs:
         if: steps.vercel_secrets.outputs.has_secrets == 'true'
         working-directory: ./website
         run: |
-          npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
-          npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
-          npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
+          run_and_capture() {
+            name="$1"
+            shift
+            log_file="/tmp/${name// /_}.log"
+            set +e
+            "$@" 2>&1 | tee "$log_file"
+            status=${PIPESTATUS[0]}
+            set -e
+            if [ "$status" -ne 0 ]; then
+              tail_text="$(tail -n 25 "$log_file" | tr '\n' ' ' | sed 's/%/%25/g')"
+              echo "::error title=${name} failed::${tail_text}"
+              exit "$status"
+            fi
+          }
+
+          run_and_capture "Vercel pull" npx --yes vercel@latest pull --yes --environment=production --token="$VERCEL_TOKEN"
+          run_and_capture "Vercel build" npx --yes vercel@latest build --prod --token="$VERCEL_TOKEN"
+          run_and_capture "Vercel deploy" npx --yes vercel@latest deploy --prebuilt --prod --token="$VERCEL_TOKEN"
 
       - name: Skip deploy (missing Vercel secrets)
         if: steps.vercel_secrets.outputs.has_secrets != 'true'
