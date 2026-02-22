@@ -2,4 +2,5 @@
 # Keep local Vercel linkage out of repository history.
 # Deploy workflow trigger marker.
 # Keep this file tracked to preserve trigger path.
+# Trigger deploy workflow after CI adjustments.
 .vercel
