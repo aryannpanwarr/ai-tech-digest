@@ -1,0 +1,35 @@
+# Secrets and local env files
+.env
+*.env
+*.env.local
+pipeline/.env
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.eggs/
+*.egg-info/
+.venv/
+venv/
+pipeline/.venv/
+
+# Node / Next.js
+node_modules/
+website/node_modules/
+.next/
+website/.next/
+out/
+*.tsbuildinfo
+
+# Logs and temp artifacts
+*.log
+website/build.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

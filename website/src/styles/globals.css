@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #ffffff;
+    --text-primary: #111827;
+    --text-secondary: #6b7280;
+    --border-color: #e5e7eb;
+    --font-inter: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    --font-jetbrains: "JetBrains Mono", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  }
+
+  .dark {
+    --bg-primary: #0f172a;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --border-color: #334155;
+  }
+
+  body {
+    @apply bg-[var(--bg-primary)] text-[var(--text-primary)] transition-colors duration-200;
+  }
+}
+
+@layer components {
+  .prose-custom {
+    @apply prose prose-lg dark:prose-invert max-w-content mx-auto;
+  }
+
+  .prose-custom h2 {
+    @apply text-2xl font-bold mt-10 mb-4;
+  }
+
+  .prose-custom h3 {
+    @apply text-xl font-bold mt-8 mb-3;
+  }
+
+  .prose-custom blockquote {
+    @apply border-l-4 border-blue-500 dark:border-blue-400 bg-gray-50 dark:bg-slate-800/50 px-4 py-3 italic;
+  }
+
+  .prose-custom strong {
+    @apply font-bold;
+  }
+
+  .prose-custom a {
+    @apply text-blue-600 dark:text-blue-400 hover:underline;
+  }
+
+  .prose-custom code {
+    @apply font-mono text-[0.9em] bg-gray-100 dark:bg-slate-800 px-1.5 py-0.5 rounded;
+  }
+
+  .prose-custom pre {
+    @apply bg-gray-900 dark:bg-slate-950 rounded-lg overflow-x-auto;
+  }
+
+  .prose-custom pre code {
+    @apply bg-transparent px-0 py-0;
+  }
+
+  .prose-custom ul {
+    @apply list-disc pl-6;
+  }
+
+  .prose-custom ol {
+    @apply list-decimal pl-6;
+  }
+}
+
+/* Highlight.js theme overrides */
+.hljs {
+  @apply bg-transparent !important;
+}

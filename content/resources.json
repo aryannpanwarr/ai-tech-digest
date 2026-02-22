@@ -1,0 +1,53 @@
+{
+  "last_updated": "2026-02-22",
+  "categories": {
+    "newsletters": [
+      {
+        "name": "The Batch",
+        "url": "https://www.deeplearning.ai/the-batch/",
+        "description": "Andrew Ng's weekly AI newsletter covering the most important developments.",
+        "frequency": "weekly"
+      },
+      {
+        "name": "Import AI",
+        "url": "https://importai.substack.com/",
+        "description": "Jack Clark's newsletter on AI policy and research.",
+        "frequency": "weekly"
+      }
+    ],
+    "podcasts": [
+      {
+        "name": "The Gradient Podcast",
+        "url": "https://thegradientpub.substack.com/",
+        "description": "In-depth interviews with AI researchers and practitioners.",
+        "frequency": "weekly"
+      }
+    ],
+    "youtube_channels": [],
+    "blogs": [
+      {
+        "name": "Lilian Weng's Blog",
+        "url": "https://lilianweng.github.io/",
+        "description": "Thorough technical deep-dives into ML concepts by OpenAI researcher.",
+        "frequency": "monthly"
+      }
+    ],
+    "research_trackers": [
+      {
+        "name": "Papers With Code",
+        "url": "https://paperswithcode.com/",
+        "description": "Track state-of-the-art ML papers with their implementations.",
+        "frequency": "daily"
+      }
+    ],
+    "tools": [],
+    "communities": [
+      {
+        "name": "r/MachineLearning",
+        "url": "https://www.reddit.com/r/MachineLearning/",
+        "description": "Reddit's main ML research discussion community.",
+        "frequency": "daily"
+      }
+    ]
+  }
+}
