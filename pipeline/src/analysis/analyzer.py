@@ -9,8 +9,8 @@ from src.analysis.prompts import TRIAGE_PROMPT, ANALYSIS_PROMPT, RESOURCES_PROMP
 from src.config import RawArticle
 
 # Model configuration
-FLASH_MODEL = os.getenv("GEMINI_FLASH_MODEL", "gemini-2.5-flash-preview-05-20")
-PRO_MODEL = os.getenv("GEMINI_PRO_MODEL", "gemini-3-pro")
+FLASH_MODEL = os.getenv("GEMINI_FLASH_MODEL", "gemini-3-flash-preview")
+PRO_MODEL = os.getenv("GEMINI_PRO_MODEL", "gemini-3-pro-preview")
 
 
 def _get_client() -> genai.Client:

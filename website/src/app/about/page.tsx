@@ -56,8 +56,9 @@ export default function AboutPage() {
         <h2>Transparency</h2>
         <p>
           All analysis in this digest is generated using <strong>Google&apos;s Gemini AI models</strong>.
-          Specifically, we use Gemini 2.5 Flash for triage and resource curation, and Gemini 3 Pro
-          for the in-depth analysis writing. We believe in being transparent about AI-generated content.
+          Specifically, we currently use Gemini 3 Flash Preview for triage and resource curation,
+          and Gemini 3 Pro Preview for the in-depth analysis writing. We believe in being transparent
+          about AI-generated content.
         </p>
 
         <h2>Open Source</h2>
