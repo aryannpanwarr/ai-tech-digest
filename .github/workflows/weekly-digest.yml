@@ -4,7 +4,7 @@ on:
   schedule:
     - cron: '0 14 * * 0'    # Every Sunday at 2 PM UTC
   workflow_dispatch:          # Manual trigger for testing
-  push:                       # One-click verification when this workflow changes
+  push:                       # One-click verification when this workflow changes (includes one-off full run marker)
     branches:
       - main
     paths:
