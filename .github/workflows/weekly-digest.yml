@@ -29,7 +29,7 @@ jobs:
         run: cd pipeline && pytest -q
 
   generate-digest:
-    if: github.event_name != 'push'
+    if: github.event_name != 'push' || contains(github.event.head_commit.message || '', '[run-digest]')
     runs-on: ubuntu-latest
     permissions:
       contents: write        # Needed to push commits
