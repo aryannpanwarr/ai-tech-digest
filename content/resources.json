@@ -45,6 +45,11 @@
         "name": "Google 2026 Responsible AI Progress Report",
         "url": "https://blog.google/innovation-and-ai/products/responsible-ai-2026-report-ongoing-work/",
         "description": "A primary source document detailing how one of the world's largest AI labs implements safety, ethics, and red-teaming across its Gemini model family."
+      },
+      {
+        "name": "Andrej Karpathy on 'Claws'",
+        "url": "https://simonwillison.net/2026/Feb/21/claws/",
+        "description": "Expert analysis defining the 'Claws' layer—a new software architecture for coordinating LLM agents in multi-step, complex workflows."
       }
     ],
     "research_trackers": [
@@ -58,6 +63,11 @@
         "name": "IT-Bench and MAST: Diagnosing Enterprise Agent Failures",
         "url": "https://huggingface.co/blog/ibm-research/itbenchandmast",
         "description": "A collaborative research effort by IBM and UC Berkeley that provides a rigorous framework for understanding why AI agents fail in complex enterprise environments."
+      },
+      {
+        "name": "OpenAI First Proof Submissions",
+        "url": "https://openai.com/index/first-proof-submissions",
+        "description": "Primary research data showing how reasoning-based AI models attempt expert-level mathematical proofs, highlighting current capabilities and limitations."
       }
     ],
     "tools": [
@@ -80,6 +90,16 @@
         "name": "Unsloth AI Training Library",
         "url": "https://github.com/unslothai/unsloth",
         "description": "An essential tool for developers looking to fine-tune LLMs with 2x more speed and 70% less memory, now integrated with Hugging Face for free training jobs."
+      },
+      {
+        "name": "Claude Code",
+        "url": "https://anthropic.com/claude-code",
+        "description": "A high-performance CLI tool for agentic coding that utilizes prompt caching to minimize latency and cost during complex development tasks."
+      },
+      {
+        "name": "Qwen 3.5 Model Collection",
+        "url": "https://huggingface.co/Qwen",
+        "description": "The latest open-weights multimodal models from Alibaba, specifically designed to handle vision-based agentic tasks and complex reasoning."
       }
     ],
     "communities": [
