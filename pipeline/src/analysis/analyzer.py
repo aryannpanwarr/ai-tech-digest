@@ -29,7 +29,55 @@ def _parse_json_response(text: str) -> dict:
         # Remove first line (```json or ```) and last line (```)
         lines = [l for l in lines if not l.strip().startswith("```")]
         text = "\n".join(lines)
-    return json.loads(text)
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        extracted = _extract_balanced_json(text)
+        if extracted:
+            return json.loads(extracted)
+        raise
+
+
+def _extract_balanced_json(text: str) -> str | None:
+    """Best-effort extraction of the first balanced JSON object/array."""
+    start = None
+    for i, ch in enumerate(text):
+        if ch in "{[":
+            start = i
+            break
+    if start is None:
+        return None
+
+    opener = text[start]
+    closer = "}" if opener == "{" else "]"
+    depth = 0
+    in_string = False
+    escaped = False
+
+    for i in range(start, len(text)):
+        ch = text[i]
+        if in_string:
+            if escaped:
+                escaped = False
+                continue
+            if ch == "\\":
+                escaped = True
+                continue
+            if ch == "\"":
+                in_string = False
+            continue
+
+        if ch == "\"":
+            in_string = True
+            continue
+        if ch == opener:
+            depth += 1
+        elif ch == closer:
+            depth -= 1
+            if depth == 0:
+                return text[start:i + 1]
+
+    return None
 
 
 def _articles_to_json(articles: list[RawArticle], max_content_len: int = 2000) -> str:
@@ -68,7 +116,8 @@ async def triage_articles(articles: list[RawArticle]) -> dict:
                 ],
                 config={
                     "temperature": 0.3,
-                    "max_output_tokens": 2000,
+                    "max_output_tokens": 4000,
+                    "response_mime_type": "application/json",
                 },
             )
 
@@ -176,7 +225,8 @@ async def curate_resources(triage: dict, articles: list[RawArticle]) -> dict:
                 ],
                 config={
                     "temperature": 0.3,
-                    "max_output_tokens": 2000,
+                    "max_output_tokens": 3000,
+                    "response_mime_type": "application/json",
                 },
             )
 
