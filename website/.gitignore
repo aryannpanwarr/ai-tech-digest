@@ -1,2 +1,3 @@
 # Vercel project link metadata (local only)
+# Keep local Vercel linkage out of repository history.
 .vercel
