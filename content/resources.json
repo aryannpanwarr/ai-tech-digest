@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22",
+  "last_updated": "2026-03-08",
   "categories": {
     "newsletters": [
       {
@@ -50,6 +50,21 @@
         "name": "Andrej Karpathy on 'Claws'",
         "url": "https://simonwillison.net/2026/Feb/21/claws/",
         "description": "Expert analysis defining the 'Claws' layer—a new software architecture for coordinating LLM agents in multi-step, complex workflows."
+      },
+      {
+        "name": "Gemini 3.1 Flash-Lite Technical Overview",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-lite/",
+        "description": "A deep dive into Google's most cost-effective model to date, explaining the architectural trade-offs made to achieve high-efficiency scaling for high-volume tasks."
+      },
+      {
+        "name": "LLMs and the Unmasking of Pseudonymous Users",
+        "url": "https://arstechnica.com/security/2026/03/llms-can-unmask-pseudonymous-users-at-scale-with-surprising-accuracy/",
+        "description": "A critical analysis of new research showing how large language models can deanonymize users by identifying unique writing patterns across disparate datasets."
+      },
+      {
+        "name": "TerraPower Natrium Technology Overview",
+        "url": "https://www.terrapower.com/our-technologies/natrium-technology/",
+        "description": "Primary technical details on the next-generation nuclear reactor design that just received a landmark NRC permit to help meet AI's massive energy demands."
       }
     ],
     "research_trackers": [
@@ -68,6 +83,11 @@
         "name": "OpenAI First Proof Submissions",
         "url": "https://openai.com/index/first-proof-submissions",
         "description": "Primary research data showing how reasoning-based AI models attempt expert-level mathematical proofs, highlighting current capabilities and limitations."
+      },
+      {
+        "name": "GPT-5.4 Thinking System Card",
+        "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
+        "description": "The official technical documentation for OpenAI's latest reasoning model, detailing safety evaluations and the internal 'thinking' processes of the 5.4 architecture."
       }
     ],
     "tools": [
@@ -100,6 +120,26 @@
         "name": "Qwen 3.5 Model Collection",
         "url": "https://huggingface.co/Qwen",
         "description": "The latest open-weights multimodal models from Alibaba, specifically designed to handle vision-based agentic tasks and complex reasoning."
+      },
+      {
+        "name": "Qwen 3.5 Open-Weight Model Family",
+        "url": "https://github.com/QwenLM/Qwen",
+        "description": "Alibaba's latest open-source release which currently leads many global benchmarks; essential for developers looking to deploy high-performance local LLMs."
+      },
+      {
+        "name": "Codex Security: Research Preview",
+        "url": "https://openai.com/index/codex-security-now-in-research-preview",
+        "description": "An AI application security agent that analyzes project context to detect and patch vulnerabilities, representing the next step in autonomous cybersecurity."
+      },
+      {
+        "name": "SpeciesNet: Open-Source AI for Wildlife Conservation",
+        "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/speciesnet-open-source-ai-wildlife/",
+        "description": "A practical, open-source computer vision tool developed by Google Research that demonstrates how to apply AI to complex environmental and sustainability datasets."
+      },
+      {
+        "name": "Sarvam 105B: Regional Language Optimization",
+        "url": "https://www.sarvam.ai/",
+        "description": "The first competitive large-scale open-source model optimized specifically for Indian languages, providing a blueprint for regional AI development."
       }
     ],
     "communities": [
