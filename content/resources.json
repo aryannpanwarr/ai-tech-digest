@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08",
+  "last_updated": "2026-03-15",
   "categories": {
     "newsletters": [
       {
@@ -23,7 +23,13 @@
         "frequency": "weekly"
       }
     ],
-    "youtube_channels": [],
+    "youtube_channels": [
+      {
+        "name": "Agentic Engineering and the Lethal Trifecta",
+        "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/",
+        "description": "Expert analysis from Simon Willison on the security risks and practical engineering challenges of building autonomous AI agents."
+      }
+    ],
     "blogs": [
       {
         "name": "Lilian Weng's Blog",
@@ -65,6 +71,21 @@
         "name": "TerraPower Natrium Technology Overview",
         "url": "https://www.terrapower.com/our-technologies/natrium-technology/",
         "description": "Primary technical details on the next-generation nuclear reactor design that just received a landmark NRC permit to help meet AI's massive energy demands."
+      },
+      {
+        "name": "Ulysses Sequence Parallelism: Training with Million-Token Contexts",
+        "url": "https://huggingface.co/blog/ulysses-sp",
+        "description": "A technical deep dive into the parallelism techniques required to train models with massive context windows like the newly released Claude 4.6."
+      },
+      {
+        "name": "Equipping the Responses API with a Computer Environment",
+        "url": "https://openai.com/index/equip-responses-api-computer-environment",
+        "description": "An engineering blog post explaining how to build secure, scalable agent runtimes using hosted containers and shell tools."
+      },
+      {
+        "name": "Invisible Unicode Supply-Chain Attacks",
+        "url": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/",
+        "description": "A critical security analysis of how hidden characters are being used to inject malicious code into open-source repositories while bypassing human review."
       }
     ],
     "research_trackers": [
@@ -88,6 +109,11 @@
         "name": "GPT-5.4 Thinking System Card",
         "url": "https://openai.com/index/gpt-5-4-thinking-system-card",
         "description": "The official technical documentation for OpenAI's latest reasoning model, detailing safety evaluations and the internal 'thinking' processes of the 5.4 architecture."
+      },
+      {
+        "name": "Improving instruction hierarchy in frontier LLMs",
+        "url": "https://openai.com/index/instruction-hierarchy-challenge",
+        "description": "A primary research paper detailing how to train models to prioritize trusted system instructions over untrusted user inputs to prevent prompt injection."
       }
     ],
     "tools": [
@@ -140,6 +166,21 @@
         "name": "Sarvam 105B: Regional Language Optimization",
         "url": "https://www.sarvam.ai/",
         "description": "The first competitive large-scale open-source model optimized specifically for Indian languages, providing a blueprint for regional AI development."
+      },
+      {
+        "name": "Promptfoo AI Security Platform",
+        "url": "https://openai.com/index/openai-to-acquire-promptfoo",
+        "description": "The open-source testing framework recently acquired by OpenAI that allows developers to find vulnerabilities and evaluate LLM output quality."
+      },
+      {
+        "name": "LeRobot v0.5.0: Scaling Open-Source Robotics",
+        "url": "https://huggingface.co/blog/lerobot-release-v050",
+        "description": "A comprehensive library for training and deploying AI-driven robotics, featuring new tools for data collection and hardware integration."
+      },
+      {
+        "name": "Hugging Face Hub Storage Buckets",
+        "url": "https://huggingface.co/blog/storage-buckets",
+        "description": "A new infrastructure tool that provides native S3-compatible storage for managing large-scale datasets and model assets directly on the Hugging Face Hub."
       }
     ],
     "communities": [
