@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15",
+  "last_updated": "2026-03-22",
   "categories": {
     "newsletters": [
       {
@@ -86,6 +86,16 @@
         "name": "Invisible Unicode Supply-Chain Attacks",
         "url": "https://arstechnica.com/security/2026/03/supply-chain-attack-using-invisible-code-hits-github-and-other-repositories/",
         "description": "A critical security analysis of how hidden characters are being used to inject malicious code into open-source repositories while bypassing human review."
+      },
+      {
+        "name": "Agentic Engineering Patterns: Using Git with coding agents",
+        "url": "https://simonwillison.net/guides/agentic-engineering-patterns/using-git-with-coding-agents/",
+        "description": "A long-form technical guide by Simon Willison on practical strategies for managing state and version control when working with autonomous AI sub-agents."
+      },
+      {
+        "name": "Monitoring internal coding agents for misalignment",
+        "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
+        "description": "An official OpenAI primary source explaining the use of chain-of-thought monitoring to detect and mitigate risks in agentic AI systems."
       }
     ],
     "research_trackers": [
@@ -114,6 +124,11 @@
         "name": "Improving instruction hierarchy in frontier LLMs",
         "url": "https://openai.com/index/instruction-hierarchy-challenge",
         "description": "A primary research paper detailing how to train models to prioritize trusted system instructions over untrusted user inputs to prevent prompt injection."
+      },
+      {
+        "name": "LLM in a Flash: Efficient Streaming from Flash Storage",
+        "url": "https://arxiv.org/abs/2312.11514",
+        "description": "The foundational research paper enabling the local execution of massive models on consumer hardware by optimizing how weights are loaded from storage."
       }
     ],
     "tools": [
@@ -181,6 +196,31 @@
         "name": "Hugging Face Hub Storage Buckets",
         "url": "https://huggingface.co/blog/storage-buckets",
         "description": "A new infrastructure tool that provides native S3-compatible storage for managing large-scale datasets and model assets directly on the Hugging Face Hub."
+      },
+      {
+        "name": "Astral: High-performance Python developer tools",
+        "url": "https://astral.sh",
+        "description": "The official home of uv and ruff, the tools OpenAI acquired this week to modernize and accelerate the Python ecosystem for AI development."
+      },
+      {
+        "name": "Mistral Small 4 on Hugging Face",
+        "url": "https://huggingface.co/mistralai",
+        "description": "The primary repository for Mistral's latest 119B parameter Mixture-of-Experts model, released under the Apache 2.0 license for open-weights reasoning."
+      },
+      {
+        "name": "AWS Neuron SDK for Trainium",
+        "url": "https://awsdocs-neuron.readthedocs-hosted.com/en/latest/",
+        "description": "The essential toolkit for developers looking to port models to Amazon's Trainium chips, which are gaining traction as a viable alternative to Nvidia hardware."
+      },
+      {
+        "name": "Trivy: Vulnerability and Misconfiguration Scanner",
+        "url": "https://github.com/aquasecurity/trivy",
+        "description": "The industry-standard security tool central to this week's supply-chain attack alerts; essential for any developer managing AI infrastructure."
+      },
+      {
+        "name": "OpenAI API Reference: GPT-5.4 Mini and Nano",
+        "url": "https://platform.openai.com/docs/models",
+        "description": "Official documentation for the new GPT-5.4 variants, providing technical specifications for high-volume API and sub-agent reasoning workloads."
       }
     ],
     "communities": [
