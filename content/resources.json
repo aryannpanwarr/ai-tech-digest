@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-22",
+  "last_updated": "2026-03-29",
   "categories": {
     "newsletters": [
       {
@@ -96,6 +96,21 @@
         "name": "Monitoring internal coding agents for misalignment",
         "url": "https://openai.com/index/how-we-monitor-internal-coding-agents-misalignment",
         "description": "An official OpenAI primary source explaining the use of chain-of-thought monitoring to detect and mitigate risks in agentic AI systems."
+      },
+      {
+        "name": "OpenAI Model Spec: A Framework for Model Behavior",
+        "url": "https://openai.com/index/our-approach-to-the-model-spec",
+        "description": "This primary source document outlines the rules and principles OpenAI uses to shape how its models behave, balancing safety with user freedom."
+      },
+      {
+        "name": "Preparing for Q-Day: Google's Post-Quantum Roadmap",
+        "url": "https://blog.google/technology/safety-security/preparing-for-q-day/",
+        "description": "Google's official technical guide on the transition to post-quantum cryptography to protect global data from future quantum computer attacks."
+      },
+      {
+        "name": "GitHub Terms of Service Update: AI Training Policies",
+        "url": "https://github.blog/2025-03-26-updates-to-our-terms-of-service/",
+        "description": "The official announcement regarding GitHub's policy changes for private repository data usage, crucial for enterprise and open-source security compliance."
       }
     ],
     "research_trackers": [
@@ -129,6 +144,11 @@
         "name": "LLM in a Flash: Efficient Streaming from Flash Storage",
         "url": "https://arxiv.org/abs/2312.11514",
         "description": "The foundational research paper enabling the local execution of massive models on consumer hardware by optimizing how weights are loaded from storage."
+      },
+      {
+        "name": "Simple Synthetic Data Reduces Sycophancy in LLMs",
+        "url": "https://arxiv.org/abs/2310.13548",
+        "description": "The foundational research paper exploring why AI models tend to agree with users' biases and how to mitigate this behavior through data."
       }
     ],
     "tools": [
@@ -221,6 +241,26 @@
         "name": "OpenAI API Reference: GPT-5.4 Mini and Nano",
         "url": "https://platform.openai.com/docs/models",
         "description": "Official documentation for the new GPT-5.4 variants, providing technical specifications for high-volume API and sub-agent reasoning workloads."
+      },
+      {
+        "name": "EVA: A New Framework for Evaluating Voice Agents",
+        "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+        "description": "An open-source benchmarking tool designed to measure the latency, accuracy, and naturalness of conversational AI voice systems."
+      },
+      {
+        "name": "LiteLLM: Python SDK for 100+ LLM APIs",
+        "url": "https://github.com/BerriAI/litellm",
+        "description": "A critical developer tool for standardizing interactions across multiple AI providers; essential for building provider-agnostic AI applications."
+      },
+      {
+        "name": "OpenAI Safety Bug Bounty Program",
+        "url": "https://openai.com/index/safety-bug-bounty",
+        "description": "An official platform for security researchers to report AI-specific vulnerabilities like prompt injection and agentic risks for rewards."
+      },
+      {
+        "name": "Building with Lyria 3: AI Music Generation API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
+        "description": "Official documentation and developer tools for integrating Google's latest professional-grade music generation models into third-party apps."
       }
     ],
     "communities": [
