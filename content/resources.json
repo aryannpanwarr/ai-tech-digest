@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-29",
+  "last_updated": "2026-04-05",
   "categories": {
     "newsletters": [
       {
@@ -111,6 +111,31 @@
         "name": "GitHub Terms of Service Update: AI Training Policies",
         "url": "https://github.blog/2025-03-26-updates-to-our-terms-of-service/",
         "description": "The official announcement regarding GitHub's policy changes for private repository data usage, crucial for enterprise and open-source security compliance."
+      },
+      {
+        "name": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+        "url": "https://huggingface.co/blog/gemma4",
+        "description": "The official technical breakdown of Google's latest open-weights multimodal models, providing benchmarks and architecture details for on-device AI implementation."
+      },
+      {
+        "name": "GDDRHammer: Exploiting GPU Memory to Control CPUs",
+        "url": "https://arstechnica.com/security/2026/04/new-rowhammer-attacks-give-complete-control-of-machines-running-nvidia-gpus/",
+        "description": "A deep dive into a new class of Rowhammer attacks that bypass traditional CPU protections by targeting GPU memory, a critical vulnerability for AI-heavy infrastructure."
+      },
+      {
+        "name": "IBM Granite 4.0 Vision Technical Report",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+        "description": "Primary documentation for IBM's new 3B parameter model, which offers a blueprint for building compact, high-efficiency multimodal agents for enterprise document analysis."
+      },
+      {
+        "name": "Quantum Computing Advances and Elliptic Curve Cryptography",
+        "url": "https://arstechnica.com/security/2026/03/new-quantum-computing-advances-heighten-threat-to-elliptic-curve-cryptosystems/",
+        "description": "Analysis of new research regarding neutral-atom quantum computers, explaining why the timeline for transitioning to post-quantum cryptography may be shorter than expected."
+      },
+      {
+        "name": "OpenAI: Accelerating the Next Phase of AI",
+        "url": "https://openai.com/index/accelerating-the-next-phase-ai",
+        "description": "The official announcement of OpenAI's record-breaking funding round, detailing their strategic priorities for global compute expansion and frontier model development."
       }
     ],
     "research_trackers": [
@@ -261,6 +286,16 @@
         "name": "Building with Lyria 3: AI Music Generation API",
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/lyria-3-developers/",
         "description": "Official documentation and developer tools for integrating Google's latest professional-grade music generation models into third-party apps."
+      },
+      {
+        "name": "TRL v1.0: Post-Training Library Built to Move with the Field",
+        "url": "https://huggingface.co/blog/trl-v1",
+        "description": "A major update to the industry-standard library for fine-tuning and aligning LLMs using methods like RLHF and DPO, essential for modern model post-training."
+      },
+      {
+        "name": "scan-for-secrets: Mitigating AI Agent Security Risks",
+        "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/",
+        "description": "A practical tool and methodology for developers to prevent AI coding agents from accidentally exposing sensitive credentials during automated vulnerability research."
       }
     ],
     "communities": [
