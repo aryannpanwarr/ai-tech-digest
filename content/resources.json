@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-05",
+  "last_updated": "2026-04-12",
   "categories": {
     "newsletters": [
       {
@@ -136,6 +136,26 @@
         "name": "OpenAI: Accelerating the Next Phase of AI",
         "url": "https://openai.com/index/accelerating-the-next-phase-ai",
         "description": "The official announcement of OpenAI's record-breaking funding round, detailing their strategic priorities for global compute expansion and frontier model development."
+      },
+      {
+        "name": "Anthropic: Project Glasswing",
+        "url": "https://www.anthropic.com/news/glasswing",
+        "description": "The official announcement detailing how vetted security researchers can access the Claude Mythos model for red-teaming and vulnerability discovery."
+      },
+      {
+        "name": "Meta AI: Introducing Muse Spark",
+        "url": "https://ai.meta.com/blog/muse-spark-reasoning-model/",
+        "description": "Meta's primary technical blog post explaining the reasoning capabilities and code interpreter integration of their newest model release."
+      },
+      {
+        "name": "OpenAI Academy: Prompting Fundamentals",
+        "url": "https://openai.com/academy/prompting",
+        "description": "An evergreen learning resource from OpenAI that provides a structured approach to mastering effective communication with large language models."
+      },
+      {
+        "name": "NASA Artemis II Mission Overview",
+        "url": "https://www.nasa.gov/artemis-ii",
+        "description": "The primary source for technical data and mission milestones regarding the Orion spacecraft's historic flight and successful Pacific splashdown."
       }
     ],
     "research_trackers": [
@@ -174,6 +194,11 @@
         "name": "Simple Synthetic Data Reduces Sycophancy in LLMs",
         "url": "https://arxiv.org/abs/2310.13548",
         "description": "The foundational research paper exploring why AI models tend to agree with users' biases and how to mitigate this behavior through data."
+      },
+      {
+        "name": "RISC-V Technical Specifications",
+        "url": "https://riscv.org/technical/specifications/",
+        "description": "The foundational documentation for the open-standard architecture powering the next generation of AI hardware from companies like SiFive."
       }
     ],
     "tools": [
@@ -296,6 +321,16 @@
         "name": "scan-for-secrets: Mitigating AI Agent Security Risks",
         "url": "https://simonwillison.net/2026/Apr/5/scan-for-secrets-3/",
         "description": "A practical tool and methodology for developers to prevent AI coding agents from accidentally exposing sensitive credentials during automated vulnerability research."
+      },
+      {
+        "name": "Safetensors Official Repository",
+        "url": "https://github.com/huggingface/safetensors",
+        "description": "The core implementation of the secure weight format that recently joined the PyTorch Foundation to standardize AI model security."
+      },
+      {
+        "name": "GLM-4/5 Open Weights Repository",
+        "url": "https://github.com/THUDM/GLM-4",
+        "description": "The official code and architecture repository for the GLM series, providing insight into the massive 754B parameter models released by Z.ai."
       }
     ],
     "communities": [
