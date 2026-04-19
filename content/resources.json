@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-12",
+  "last_updated": "2026-04-19",
   "categories": {
     "newsletters": [
       {
@@ -156,6 +156,36 @@
         "name": "NASA Artemis II Mission Overview",
         "url": "https://www.nasa.gov/artemis-ii",
         "description": "The primary source for technical data and mission milestones regarding the Orion spacecraft's historic flight and successful Pacific splashdown."
+      },
+      {
+        "name": "Introducing GPT-Rosalind",
+        "url": "https://openai.com/index/introducing-gpt-rosalind",
+        "description": "The primary announcement for OpenAI's new specialized reasoning model, detailing its specific applications in genomics and drug discovery."
+      },
+      {
+        "name": "Trusted Access for Cyber Defense Analysis",
+        "url": "https://simonwillison.net/2026/Apr/14/trusted-access-openai/",
+        "description": "Domain expert Simon Willison provides a deep dive into the security implications of OpenAI's new cyber-defense APIs and the rivalry with Anthropic."
+      },
+      {
+        "name": "Gemini 3.1 Flash TTS Technical Overview",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-1-flash-tts/",
+        "description": "Official documentation on Google's latest expressive speech model, explaining how prompt-based vocal direction works under the hood."
+      },
+      {
+        "name": "Cerebras Systems S-1 Filing",
+        "url": "https://www.sec.gov/edgar/browse/?CIK=1710337",
+        "description": "The primary financial source for the Cerebras IPO, offering a rare look into the unit economics and hardware strategy of an NVIDIA challenger."
+      },
+      {
+        "name": "EFF Analysis of Section 702",
+        "url": "https://www.eff.org/702",
+        "description": "A comprehensive evergreen resource from the Electronic Frontier Foundation explaining the legal stakes of the warrantless surveillance powers currently facing expiration."
+      },
+      {
+        "name": "Claude 4.7 and Design Release Notes",
+        "url": "https://www.anthropic.com/news/claude-4-7-design",
+        "description": "The official release documentation for Anthropic's latest model update, including technical details on the improved tokenizer and visual design tool."
       }
     ],
     "research_trackers": [
@@ -199,6 +229,11 @@
         "name": "RISC-V Technical Specifications",
         "url": "https://riscv.org/technical/specifications/",
         "description": "The foundational documentation for the open-standard architecture powering the next generation of AI hardware from companies like SiFive."
+      },
+      {
+        "name": "2026 AI Index Report",
+        "url": "https://aiindex.stanford.edu/report/",
+        "description": "The definitive annual report from Stanford HAI tracking AI development, investment, and societal impact with rigorous, peer-reviewed data."
       }
     ],
     "tools": [
@@ -331,6 +366,21 @@
         "name": "GLM-4/5 Open Weights Repository",
         "url": "https://github.com/THUDM/GLM-4",
         "description": "The official code and architecture repository for the GLM series, providing insight into the massive 754B parameter models released by Z.ai."
+      },
+      {
+        "name": "OpenAI Agents SDK",
+        "url": "https://github.com/openai/openai-agents-sdk",
+        "description": "A practical framework for building autonomous agents with native sandbox execution, allowing developers to implement the 'agentic' workflows discussed this week."
+      },
+      {
+        "name": "OpenHands: Open-Source Agentic Platform",
+        "url": "https://github.com/All-Hands-AI/OpenHands",
+        "description": "A leading open-source alternative to proprietary coding agents, perfect for readers wanting to experiment with autonomous AI development today."
+      },
+      {
+        "name": "Cursor: AI-Native Code Editor",
+        "url": "https://cursor.com",
+        "description": "The actual tool behind the week's massive valuation news, allowing users to experience state-of-the-art AI-assisted programming firsthand."
       }
     ],
     "communities": [
