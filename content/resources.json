@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-19",
+  "last_updated": "2026-04-26",
   "categories": {
     "newsletters": [
       {
@@ -186,6 +186,21 @@
         "name": "Claude 4.7 and Design Release Notes",
         "url": "https://www.anthropic.com/news/claude-4-7-design",
         "description": "The official release documentation for Anthropic's latest model update, including technical details on the improved tokenizer and visual design tool."
+      },
+      {
+        "name": "Google Cloud TPU v8 Technical Overview",
+        "url": "https://cloud.google.com/tpu/docs",
+        "description": "Official documentation for the new v8t and v8i chips, providing insight into how hardware is being specialized for the 'agentic era' of AI."
+      },
+      {
+        "name": "OpenAI Academy: Codex Automations",
+        "url": "https://openai.com/academy/codex-automations",
+        "description": "An evergreen learning resource for developers looking to move beyond simple chat interfaces into building recurring, tool-connected AI workflows."
+      },
+      {
+        "name": "Anthropic: Agent-on-Agent Commerce Analysis",
+        "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
+        "description": "A long-form look at the first successful experiments in autonomous AI marketplaces where agents act as both buyers and sellers using real currency."
       }
     ],
     "research_trackers": [
@@ -234,6 +249,11 @@
         "name": "2026 AI Index Report",
         "url": "https://aiindex.stanford.edu/report/",
         "description": "The definitive annual report from Stanford HAI tracking AI development, investment, and societal impact with rigorous, peer-reviewed data."
+      },
+      {
+        "name": "GPT-5.5 System Card",
+        "url": "https://openai.com/index/gpt-5-5-system-card",
+        "description": "This primary source provides the technical safety evaluation and red-teaming results for OpenAI's newest model, essential for understanding its operational limits."
       }
     ],
     "tools": [
@@ -381,6 +401,21 @@
         "name": "Cursor: AI-Native Code Editor",
         "url": "https://cursor.com",
         "description": "The actual tool behind the week's massive valuation news, allowing users to experience state-of-the-art AI-assisted programming firsthand."
+      },
+      {
+        "name": "DeepSeek-V4 Technical Repository",
+        "url": "https://github.com/deepseek-ai/DeepSeek-V4",
+        "description": "Access the weights and documentation for the model currently leading the industry in context-window efficiency and cost-to-performance ratios."
+      },
+      {
+        "name": "OpenAI PII Privacy Filter Model",
+        "url": "https://huggingface.co/openai",
+        "description": "A practical, open-weight tool released this week that allows developers to redact personally identifiable information locally before it reaches an LLM."
+      },
+      {
+        "name": "ComfyUI Node-Based GUI",
+        "url": "https://github.com/comfyanonymous/ComfyUI",
+        "description": "Following its $500M valuation, this remains the most important tool for creators needing granular, professional control over generative media pipelines."
       }
     ],
     "communities": [
