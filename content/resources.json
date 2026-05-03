@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-04-26",
+  "last_updated": "2026-05-03",
   "categories": {
     "newsletters": [
       {
@@ -201,6 +201,31 @@
         "name": "Anthropic: Agent-on-Agent Commerce Analysis",
         "url": "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
         "description": "A long-form look at the first successful experiments in autonomous AI marketplaces where agents act as both buyers and sellers using real currency."
+      },
+      {
+        "name": "Where the goblins came from",
+        "url": "https://openai.com/index/where-the-goblins-came-from",
+        "description": "A primary source analysis of the personality-driven quirks and technical root causes discovered during GPT-5 model evaluations."
+      },
+      {
+        "name": "GenAI Intensive: Vibe Coding Course",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/kaggle-genai-intensive-course-vibe-coding-june-2026/",
+        "description": "A structured learning path from Google and Kaggle designed to teach the emerging 'vibe coding' paradigm and agentic orchestration."
+      },
+      {
+        "name": "Cybersecurity in the Intelligence Age",
+        "url": "https://openai.com/index/cybersecurity-in-the-intelligence-age",
+        "description": "A long-form strategic framework detailing how AI-powered defense can be democratized to protect critical infrastructure from emerging threats."
+      },
+      {
+        "name": "Granite 4.1 LLMs: Technical Deep Dive",
+        "url": "https://huggingface.co/blog/ibm-granite/granite-4-1",
+        "description": "A primary research post detailing the architecture, training data, and performance benchmarks of IBM's latest open-weights models."
+      },
+      {
+        "name": "AI Evals as the New Compute Bottleneck",
+        "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
+        "description": "Expert analysis from the EvalEval Coalition on why model evaluation is becoming a primary resource constraint for the AI industry."
       }
     ],
     "research_trackers": [
@@ -416,6 +441,11 @@
         "name": "ComfyUI Node-Based GUI",
         "url": "https://github.com/comfyanonymous/ComfyUI",
         "description": "Following its $500M valuation, this remains the most important tool for creators needing granular, professional control over generative media pipelines."
+      },
+      {
+        "name": "Symphony: Open-Source Orchestration Spec",
+        "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
+        "description": "An open-source specification for Codex orchestration that allows developers to transform issue trackers into autonomous, always-on agent systems."
       }
     ],
     "communities": [
