@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-05-03",
+  "last_updated": "2026-09-17",
   "categories": {
     "newsletters": [
       {
@@ -226,6 +226,26 @@
         "name": "AI Evals as the New Compute Bottleneck",
         "url": "https://huggingface.co/blog/evaleval/eval-costs-bottleneck",
         "description": "Expert analysis from the EvalEval Coalition on why model evaluation is becoming a primary resource constraint for the AI industry."
+      },
+      {
+        "name": "OpenAI: Our Framework for Reporting Model Misalignment",
+        "url": "https://openai.com/index/model-misalignment-reporting-framework",
+        "description": "An essential primary disclosure framework providing technical post-mortems of autonomous agent failures and guidelines for disclosing emergent model misalignment."
+      },
+      {
+        "name": "OpenAI Engineering: Scaling Online Storage to Serve Over 1 Billion Users",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+        "description": "A rare, deep-dive architectural case study detailing how OpenAI transformed internal libraries into a globally distributed storage engine handling 22 million requests per second."
+      },
+      {
+        "name": "PostgreSQL Internals: Chapter on Planner and Optimizer Cost Estimation",
+        "url": "https://www.postgresql.org/docs/current/planner-optimizer.html",
+        "description": "The canonical reference documentation on relational query planning, indispensable for understanding how newly trained RL models beat traditional cost heuristics."
+      },
+      {
+        "name": "Anthropic API Documentation: Building Agentic Workflows",
+        "url": "https://docs.anthropic.com",
+        "description": "Official architectural patterns and best practices for combining interactive conversational turns with multi-step autonomous tool execution loops."
       }
     ],
     "research_trackers": [
@@ -446,6 +466,21 @@
         "name": "Symphony: Open-Source Orchestration Spec",
         "url": "https://openai.com/index/open-source-codex-orchestration-symphony",
         "description": "An open-source specification for Codex orchestration that allows developers to transform issue trackers into autonomous, always-on agent systems."
+      },
+      {
+        "name": "Model Context Protocol (MCP) Specification and SDKs",
+        "url": "https://modelcontextprotocol.io",
+        "description": "The open standard specification powering agentic integrations across Anthropic, ChatGPT, and Google Home, essential for building tool-augmented AI systems."
+      },
+      {
+        "name": "Rust-CUDA: Ecosystem for Native GPU Kernel Development",
+        "url": "https://github.com/Rust-GPU/Rust-CUDA",
+        "description": "A foundational open-source repository and toolchain enabling memory-safe CUDA kernel compilation and GPU acceleration directly in Rust."
+      },
+      {
+        "name": "Mistral Inference: Reference Implementation for Local and Edge Inference",
+        "url": "https://github.com/mistralai/mistral-inference",
+        "description": "The official, lightweight runtime for deploying Mistral models locally, directly relevant to the latest Mozilla-Mistral on-device web integration initiatives."
       }
     ],
     "communities": [
