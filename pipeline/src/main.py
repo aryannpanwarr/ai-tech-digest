@@ -7,7 +7,6 @@ from dotenv import load_dotenv
 
 from src.collectors.rss_collector import RSSCollector
 from src.collectors.hackernews import HackerNewsCollector
-from src.collectors.reddit import RedditCollector
 from src.collectors.arxiv import ArxivCollector
 from src.collectors.github_trending import GitHubTrendingCollector
 from src.analysis.deduplicator import deduplicate
@@ -22,7 +21,6 @@ async def collect_all_sources() -> list[RawArticle]:
     collectors = [
         RSSCollector(),
         HackerNewsCollector(),
-        RedditCollector(),
         ArxivCollector(),
         GitHubTrendingCollector(),
     ]

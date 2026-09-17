@@ -8,7 +8,7 @@ import httpx
 from src.collectors.base import BaseCollector
 from src.config import RawArticle, ARXIV_CATEGORIES, ARXIV_MAX_RESULTS, HTTP_TIMEOUT, USER_AGENT
 
-ARXIV_API_URL = "http://export.arxiv.org/api/query"
+ARXIV_API_URL = "https://export.arxiv.org/api/query"
 ARXIV_NS = {"atom": "http://www.w3.org/2005/Atom"}
 
 

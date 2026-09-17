@@ -8,7 +8,7 @@ Live deployment: **https://ai-tech-digest-flax.vercel.app**
 
 Every week, the pipeline:
 
-- Collects stories from multiple sources (RSS, Hacker News, Reddit, ArXiv, GitHub)
+- Collects stories from multiple sources (RSS, Hacker News, ArXiv, GitHub)
 - Deduplicates and ranks them
 - Uses Gemini models for triage, deep analysis, and resource curation
 - Publishes markdown digest posts + `resources.json` into `content/`
@@ -47,8 +47,8 @@ Set at least:
 Optional but recommended:
 
 - `GITHUB_TOKEN`
-- `GEMINI_FLASH_MODEL` (default: `gemini-3-flash-preview`)
-- `GEMINI_PRO_MODEL` (default: `gemini-3-pro-preview`)
+- `GEMINI_FLASH_MODEL` (default: `gemini-3.8-flash`)
+- `GEMINI_PRO_MODEL` (default: `gemini-3.1-pro-preview`)
 
 Run tests:
 

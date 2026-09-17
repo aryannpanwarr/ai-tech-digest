@@ -21,20 +21,12 @@ RSS_FEEDS = [
     ("arstechnica", "https://feeds.arstechnica.com/arstechnica/technology-lab"),
     ("google-ai", "https://blog.google/technology/ai/rss/"),
     ("openai", "https://openai.com/blog/rss.xml"),
-    ("anthropic", "https://www.anthropic.com/rss.xml"),
+    # anthropic.com has no official feed; community feed scraped from anthropic.com/news
+    ("anthropic", "https://raw.githubusercontent.com/Olshansk/rss-feeds/main/feeds/feed_anthropic_news.xml"),
     ("huggingface", "https://huggingface.co/blog/feed.xml"),
     ("simonwillison", "https://simonwillison.net/atom/everything/"),
     ("lilianweng", "https://lilianweng.github.io/index.xml"),
     ("mlengineer", "https://newsletter.mlengineer.io/feed"),
-]
-
-# --- Reddit ---
-SUBREDDITS = [
-    "MachineLearning",
-    "artificial",
-    "LocalLLaMA",
-    "technology",
-    "programming",
 ]
 
 # --- ArXiv ---

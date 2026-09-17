@@ -9,8 +9,8 @@ from src.analysis.prompts import TRIAGE_PROMPT, ANALYSIS_PROMPT, RESOURCES_PROMP
 from src.config import RawArticle
 
 # Model configuration
-FLASH_MODEL = os.getenv("GEMINI_FLASH_MODEL", "gemini-2.5-flash")
-PRO_MODEL = os.getenv("GEMINI_PRO_MODEL", "gemini-2.5-pro")
+FLASH_MODEL = os.getenv("GEMINI_FLASH_MODEL", "gemini-3.8-flash")
+PRO_MODEL = os.getenv("GEMINI_PRO_MODEL", "gemini-3.1-pro-preview")
 
 
 def _get_client() -> genai.Client:
@@ -116,7 +116,7 @@ async def triage_articles(articles: list[RawArticle]) -> dict:
                 ],
                 config={
                     "temperature": 0.3,
-                    "max_output_tokens": 4000,
+                    "max_output_tokens": 16000,
                     "response_mime_type": "application/json",
                 },
             )
@@ -174,16 +174,17 @@ async def deep_analysis(triage: dict, articles: list[RawArticle]) -> str:
     source_json = json.dumps(source_material, indent=2)
     user_message = f"Triaged stories:\n{stories_context}\n\nSource material:\n{source_json}"
 
-    for attempt in range(2):
+    # Pro is a preview model and may be retired; fall back to Flash on the retry.
+    for attempt, model in enumerate([PRO_MODEL, FLASH_MODEL]):
         try:
             response = client.models.generate_content(
-                model=PRO_MODEL,
+                model=model,
                 contents=[
                     {"role": "user", "parts": [{"text": f"{ANALYSIS_PROMPT}\n\n{user_message}"}]}
                 ],
                 config={
                     "temperature": 0.7,
-                    "max_output_tokens": 8000,
+                    "max_output_tokens": 32000,
                 },
             )
 
@@ -194,7 +195,7 @@ async def deep_analysis(triage: dict, articles: list[RawArticle]) -> str:
             return response.text
         except Exception as e:
             if attempt == 0:
-                print(f"  Analysis error, retrying: {e}")
+                print(f"  Analysis error with {model}, retrying with {FLASH_MODEL}: {e}")
                 continue
             raise
 
@@ -225,7 +226,7 @@ async def curate_resources(triage: dict, articles: list[RawArticle]) -> dict:
                 ],
                 config={
                     "temperature": 0.3,
-                    "max_output_tokens": 3000,
+                    "max_output_tokens": 16000,
                     "response_mime_type": "application/json",
                 },
             )

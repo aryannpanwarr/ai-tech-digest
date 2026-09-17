@@ -26,7 +26,7 @@ export default function AboutPage() {
         <ol>
           <li>
             <strong>Collection</strong> — We scrape high-quality sources including RSS feeds from major tech publications,
-            HackerNews top stories, Reddit AI communities, ArXiv papers, and trending GitHub repositories.
+            HackerNews top stories, ArXiv papers, and trending GitHub repositories.
           </li>
           <li>
             <strong>Deduplication</strong> — Articles covering the same story are merged using URL normalization
@@ -49,7 +49,6 @@ export default function AboutPage() {
           <li>Google AI Blog, OpenAI Blog, Anthropic Blog</li>
           <li>Hugging Face Blog, Simon Willison, Lilian Weng</li>
           <li>HackerNews (top and best stories)</li>
-          <li>Reddit: r/MachineLearning, r/artificial, r/LocalLLaMA, r/technology, r/programming</li>
           <li>ArXiv (cs.AI, cs.LG, cs.CL, cs.CV categories)</li>
           <li>GitHub trending repositories (AI/ML topics)</li>
         </ul>
@@ -57,8 +56,8 @@ export default function AboutPage() {
         <h2>Transparency</h2>
         <p>
           All analysis in this digest is generated using <strong>Google&apos;s Gemini AI models</strong>.
-          Specifically, we currently use Gemini 3 Flash Preview for triage and resource curation,
-          and Gemini 3 Pro Preview for the in-depth analysis writing. We believe in being transparent
+          Specifically, we currently use Gemini 3.8 Flash for triage and resource curation,
+          and Gemini 3.1 Pro Preview for the in-depth analysis writing. We believe in being transparent
           about AI-generated content.
         </p>
 
