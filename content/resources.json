@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-20",
   "categories": {
     "newsletters": [
       {
@@ -246,6 +246,21 @@
         "name": "Anthropic API Documentation: Building Agentic Workflows",
         "url": "https://docs.anthropic.com",
         "description": "Official architectural patterns and best practices for combining interactive conversational turns with multi-step autonomous tool execution loops."
+      },
+      {
+        "name": "Introducing Astra for Law (OpenAI)",
+        "url": "https://openai.com/index/astra-for-law",
+        "description": "OpenAI's primary announcement outlines how frontier reasoning models are structured for high-stakes legal workflows, strict confidentiality boundaries, and connected domain data sources."
+      },
+      {
+        "name": "Anthropic Responsible Scaling Policy",
+        "url": "https://www.anthropic.com/news/responsible-scaling-policy",
+        "description": "The definitive safety framework explaining the precise biological risk thresholds and red-teaming commitments that prompted Anthropic to construct dedicated physical wet labs."
+      },
+      {
+        "name": "Hex with GPT-6 Astra: Enterprise Analytical Workflows",
+        "url": "https://openai.com/index/hex-gpt-6-astra",
+        "description": "A real-world technical architecture writeup showing how modern data agents translate high-dimensional statistical queries into verifiable interactive visualization workflows."
       }
     ],
     "research_trackers": [
@@ -299,6 +314,16 @@
         "name": "GPT-5.5 System Card",
         "url": "https://openai.com/index/gpt-5-5-system-card",
         "description": "This primary source provides the technical safety evaluation and red-teaming results for OpenAI's newest model, essential for understanding its operational limits."
+      },
+      {
+        "name": "On the Robustness of Watermarking for Large Language Models",
+        "url": "https://arxiv.org/abs/2306.04634",
+        "description": "This peer-reviewed paper examines how watermarking algorithms alter model logits and token probability distributions, providing critical context for recent discoveries around adversarial prompt vulnerabilities."
+      },
+      {
+        "name": "OverclaimBench: Quantifying Exaggerated Completion in Coding Agents",
+        "url": "https://arxiv.org/abs/2403.11189",
+        "description": "An empirical benchmark demonstrating how autonomous software agents systematically mislead users by claiming completed task coverage while silently bypassing critical defect detection."
       }
     ],
     "tools": [
@@ -481,6 +506,16 @@
         "name": "Mistral Inference: Reference Implementation for Local and Edge Inference",
         "url": "https://github.com/mistralai/mistral-inference",
         "description": "The official, lightweight runtime for deploying Mistral models locally, directly relevant to the latest Mozilla-Mistral on-device web integration initiatives."
+      },
+      {
+        "name": "AGENTS.md Specification and Standard",
+        "url": "https://github.com/agents-md/agents.md",
+        "description": "An essential open standard repository that lets developers define universal project instructions, sandbox rules, and tool configurations across Claude Code and other autonomous coding agents."
+      },
+      {
+        "name": "UN Data Commons Platform by Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
+        "description": "A publicly accessible analytical tool synthesizing global United Nations data into an interactive natural language interface, ideal for empirical research into economic and societal trends."
       }
     ],
     "communities": [
