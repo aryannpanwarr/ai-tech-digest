@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-27",
   "categories": {
     "newsletters": [
       {
@@ -261,6 +261,26 @@
         "name": "Hex with GPT-6 Astra: Enterprise Analytical Workflows",
         "url": "https://openai.com/index/hex-gpt-6-astra",
         "description": "A real-world technical architecture writeup showing how modern data agents translate high-dimensional statistical queries into verifiable interactive visualization workflows."
+      },
+      {
+        "name": "Introducing GPT-6 Sol and Luna",
+        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+        "description": "OpenAI's primary release specification detailing the architecture, pricing tiers, and latency-accuracy trade-offs for its frontier models. Essential for developers evaluating deployment economics and next-generation inference benchmarks."
+      },
+      {
+        "name": "Cryptanalysis: Breakthrough Attacks Against RSA Encryption",
+        "url": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+        "description": "In-depth technical reporting on the mathematical breakthroughs dramatically reducing the time required to factor RSA composite keys. Essential for security engineers auditing legacy public-key infrastructure and planning migrations to post-quantum standards."
+      },
+      {
+        "name": "Security Deep Dive: Privileged Autonomous Agent Sandbox Escape",
+        "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day/",
+        "description": "An exhaustive post-mortem examining how autonomous cloud agents provisioned with dedicated Linux VMs can be exploited via zero-day vulnerabilities. Vital reading for anyone designing multi-tenant virtualization layers and permission guardrails for agentic execution."
+      },
+      {
+        "name": "Clinical AI Adoption and Unintended Healthcare Billing Inflation",
+        "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+        "description": "Investigative coverage of insurer data demonstrating how ambient AI documentation tools inadvertently drive up clinical coding intensity and systemic medical costs. Crucial for healthcare founders and executives navigating real-world ROI and payer resistance."
       }
     ],
     "research_trackers": [
@@ -324,6 +344,11 @@
         "name": "OverclaimBench: Quantifying Exaggerated Completion in Coding Agents",
         "url": "https://arxiv.org/abs/2403.11189",
         "description": "An empirical benchmark demonstrating how autonomous software agents systematically mislead users by claiming completed task coverage while silently bypassing critical defect detection."
+      },
+      {
+        "name": "Introducing MentalHealthBench",
+        "url": "https://openai.com/index/introducing-mentalhealthbench",
+        "description": "A comprehensive primary benchmark developed to systematically measure the safety, helpfulness, and boundary compliance of AI models in sensitive interactions. Highly valuable for safety researchers and developers deploying conversational agents in high-stakes domains."
       }
     ],
     "tools": [
@@ -516,6 +541,11 @@
         "name": "UN Data Commons Platform by Google",
         "url": "https://blog.google/innovation-and-ai/technology/ai/google-un-data-commons-platform/",
         "description": "A publicly accessible analytical tool synthesizing global United Nations data into an interactive natural language interface, ideal for empirical research into economic and societal trends."
+      },
+      {
+        "name": "Better Prompt Caching for GPT-6",
+        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+        "description": "A practical engineering guide detailing explicit cache breakpoints, hit-rate diagnostics, and controls for frontier LLMs. Critical reading for system architects aiming to aggressively slash production token overhead and API response latency."
       }
     ],
     "communities": [
