@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-10-04",
   "categories": {
     "newsletters": [
       {
@@ -281,6 +281,31 @@
         "name": "Clinical AI Adoption and Unintended Healthcare Billing Inflation",
         "url": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
         "description": "Investigative coverage of insurer data demonstrating how ambient AI documentation tools inadvertently drive up clinical coding intensity and systemic medical costs. Crucial for healthcare founders and executives navigating real-world ROI and payer resistance."
+      },
+      {
+        "name": "A Model Guide for the GPT-6 Family",
+        "url": "https://openai.com/index/practical-guide-building-gpt-6",
+        "description": "A primary engineering playbook from OpenAI that explains how to calibrate reasoning effort, coordinate agent tools, and optimize context pipelines for production."
+      },
+      {
+        "name": "Introducing Dots",
+        "url": "https://openai.com/index/introducing-dots",
+        "description": "An architectural breakdown of the shift from transactional chat sessions to persistent, asynchronous autonomous background workers."
+      },
+      {
+        "name": "Apple Changes Full-Disk Access Permissions to Curb Abuse from AI Agents",
+        "url": "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+        "description": "In-depth analysis of how desktop operating systems must fundamentally rework legacy filesystem security perimeters to isolate autonomous multimodal agents."
+      },
+      {
+        "name": "Disrupting a Coordinated Model-Distillation Campaign",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+        "description": "A rare forensic case study demonstrating the attack vectors adversarial actors use to extract internal reasoning traces and how defense teams mitigate synthetic distillation."
+      },
+      {
+        "name": "Introducing GPT-6.1 Sol",
+        "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+        "description": "Provides core performance and cost specs for OpenAI's efficient frontier model, crucial for builders architecting high-volume computer-use and coding pipelines."
       }
     ],
     "research_trackers": [
@@ -349,6 +374,11 @@
         "name": "Introducing MentalHealthBench",
         "url": "https://openai.com/index/introducing-mentalhealthbench",
         "description": "A comprehensive primary benchmark developed to systematically measure the safety, helpfulness, and boundary compliance of AI models in sensitive interactions. Highly valuable for safety researchers and developers deploying conversational agents in high-stakes domains."
+      },
+      {
+        "name": "Towards Safety Cases for Frontier AI Training",
+        "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+        "description": "Essential reading amidst ongoing governance disputes, outlining the concrete technical benchmarks and auditing protocols required before scaling next-generation frontier training runs."
       }
     ],
     "tools": [
