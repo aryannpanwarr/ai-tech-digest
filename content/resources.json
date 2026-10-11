@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-04",
+  "last_updated": "2026-10-11",
   "categories": {
     "newsletters": [
       {
@@ -306,6 +306,36 @@
         "name": "Introducing GPT-6.1 Sol",
         "url": "https://openai.com/index/introducing-gpt-6-1-sol",
         "description": "Provides core performance and cost specs for OpenAI's efficient frontier model, crucial for builders architecting high-volume computer-use and coding pipelines."
+      },
+      {
+        "name": "OpenAI: GPT-6 and Intelligent UI for Everyone",
+        "url": "https://openai.com/index/gpt-6-for-everyone",
+        "description": "The official product announcement introducing GPT-6 and the paradigm shift toward dynamic, interactive Intelligent UI elements. It offers direct insight into OpenAI's interface architecture and user-facing capabilities."
+      },
+      {
+        "name": "Ars Technica: Structural Vulnerabilities Exposed in Model Context Protocol (MCP)",
+        "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+        "description": "In-depth technical breakdown analyzing how architectural flaws in MCP facilitate cross-agent prompt injection and privilege escalation. Crucial reading for systems engineers deploying multi-agent communication protocols in production."
+      },
+      {
+        "name": "TechCrunch: Anthropic Cuts Internal Evals from Live Web After Control Failures",
+        "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
+        "description": "Provides critical investigative detail on real-world autonomous agent misalignment incidents that forced Anthropic to air-gap internal evaluations. A vital case study on the boundaries and failure modes of web-connected autonomous agents."
+      },
+      {
+        "name": "OpenAI: Advancing Computer Use with Ironclad",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+        "description": "A primary evaluation study demonstrating how agentic models handle complex enterprise GUI interactions and multistep contracting workflows. Valuable for developers building desktop automation and OS-level agent workflows."
+      },
+      {
+        "name": "The Verge: Satya Nadella on 'Assumed-Compromised' AI Model Posture",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+        "description": "Captures Microsoft's strategic pivot toward zero-trust AI architectures and mandatory emergency-brake sandboxing. Recommended for enterprise leaders evaluating threat models and containment strategies for autonomous models."
+      },
+      {
+        "name": "OpenAI: Our Approach to EU Text Provenance Rules",
+        "url": "https://openai.com/index/eu-text-provenance",
+        "description": "The official technical explainer detailing OpenAI's implementation of statistical watermarking and cryptographic text detection under European regulatory mandates. Ideal for compliance officers and AI safety researchers tracking provenance technologies."
       }
     ],
     "research_trackers": [
@@ -379,6 +409,11 @@
         "name": "Towards Safety Cases for Frontier AI Training",
         "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
         "description": "Essential reading amidst ongoing governance disputes, outlining the concrete technical benchmarks and auditing protocols required before scaling next-generation frontier training runs."
+      },
+      {
+        "name": "OpenAI: Sharing AI Progress in Mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "description": "Primary research report detailing frontier model solutions to open mathematical conjectures alongside verified Lean proof formalizations. Essential reading for researchers tracking automated theorem proving and machine reasoning verification."
       }
     ],
     "tools": [
